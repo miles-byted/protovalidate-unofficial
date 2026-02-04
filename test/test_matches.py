@@ -15,7 +15,7 @@
 import celpy
 from celpy import celtypes
 
-from protovalidate.internal.extra_func import cel_matches
+from protovalidate_unofficial.internal.extra_func import cel_matches
 
 
 def test_function_matches_re2():

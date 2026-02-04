@@ -24,7 +24,7 @@ from celpy import celtypes
 from google.protobuf import any_pb2, descriptor, duration_pb2, message, message_factory, timestamp_pb2
 
 from buf.validate import validate_pb2
-from protovalidate.internal.cel_field_presence import InterpretedRunner, in_has
+from protovalidate_unofficial.internal.cel_field_presence import InterpretedRunner, in_has
 
 
 class CompilationError(Exception):

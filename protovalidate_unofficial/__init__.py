@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from protovalidate import validator
+from protovalidate_unofficial import validator
 
 Validator = validator.Validator
 CompilationError = validator.CompilationError

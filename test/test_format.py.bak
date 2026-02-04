@@ -25,8 +25,8 @@ from google.protobuf import text_format
 
 from gen.cel.expr import eval_pb2
 from gen.cel.expr.conformance.test import simple_pb2
-from protovalidate.internal import extra_func
-from protovalidate.internal.cel_field_presence import InterpretedRunner
+from protovalidate_unofficial.internal import extra_func
+from protovalidate_unofficial.internal.cel_field_presence import InterpretedRunner
 
 # Version of the cel-spec that this implementation is conformant with.
 # This should be kept in sync with the version in ../Makefile.

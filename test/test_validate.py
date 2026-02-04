@@ -17,9 +17,9 @@ from __future__ import annotations
 import pytest
 from google.protobuf import message
 
-import protovalidate
+import protovalidate_unofficial as protovalidate
 from gen.tests.example.v1 import validations_pb2
-from protovalidate.internal import rules
+from protovalidate_unofficial.internal import rules
 
 validators: list[protovalidate.Validator] = [
     protovalidate,  # global module singleton

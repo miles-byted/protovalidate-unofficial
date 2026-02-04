@@ -3,7 +3,7 @@ requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "protovalidate"
+name = "protovalidate-unofficial"
 description = "Protocol Buffer Validation for Python"
 readme = "README.md"
 license = "Apache-2.0"
@@ -104,7 +104,7 @@ lint.ignore = [
 ]
 
 [tool.ruff.lint.isort]
-known-first-party = ["protovalidate", "buf"]
+known-first-party = ["protovalidate-unofficial", "buf"]
 
 [tool.ruff.lint.flake8-tidy-imports]
 ban-relative-imports = "all"

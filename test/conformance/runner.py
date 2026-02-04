@@ -20,7 +20,7 @@ import typing
 import celpy
 from google.protobuf import any_pb2, descriptor, descriptor_pool, message_factory
 
-import protovalidate
+import protovalidate_unofficial as protovalidate
 from buf.validate.conformance.cases import (
     bool_pb2,  # noqa: F401
     bytes_pb2,  # noqa: F401
